@@ -1,0 +1,73 @@
+.game-container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px; /* Слева сверху отображаем счет монет */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.coins-info {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.upgrade-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px; /* Кнопки улучшений теперь справа сверху */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upgrade-buttons button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upgrade-buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mining-button {
+  padding: 20px 40px;
+  font-size: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mining-button:hover {
+  background-color: #218838;
+}
+
+.mine-button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  font-size: 18px;
+}
